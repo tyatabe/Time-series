@@ -1,6 +1,6 @@
 ---
 title: "Project"
-author: "Gema Vidal_7526"
+author: "Gema Vidal_7526, Tadaishi Yatabe-Rodriguez"
 date: "March 6, 2017"
 output: word_document
 ---
@@ -19,6 +19,8 @@ Setting working directory
 setwd("/Users/gvidal/Box Sync/Vet/MPVM & PhD/PhD 2016_2017 Winter Quarter (gvidal@ucdavis.edu)/STA 137/Project")
 # from Mac
 #setwd("/Users/gemavidal/Box Sync/Vet/MPVM & PhD/PhD 2016_2017 Winter Quarter (gvidal@ucdavis.edu)/STA 137/Project")
+# From Tada's PC
+setwd("C:/Users/tyatabe/OneDrive/Docs/PhD Epi/Winter_17/Time series/Project/Time-series/")
 
 df <- read.table("bostonArmedRobberies.txt", header = FALSE)
 head(df)
